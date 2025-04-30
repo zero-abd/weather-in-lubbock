@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Ensure CSS is properly handled in static export
-  assetPrefix: './',
-  basePath: '',
+  // Configure for GitHub Pages
+  basePath: '/weather-in-lubbock',
+  assetPrefix: '/weather-in-lubbock/',
 };
 
 export default nextConfig; 
