@@ -16,7 +16,7 @@ export default function RootLayout({
       <body>
         <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
           <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
-            <div className="text-red-600 font-bold text-xl">Texas Tech Weather Report</div>
+            <div className="text-red-600 font-bold text-xl">Weather in Lubbock</div>
             <nav className="flex space-x-4">
               <a href="#survey" className="hover:text-red-600 transition-colors duration-200">Survey</a>
               <a href="#gallery" className="hover:text-red-600 transition-colors duration-200">Gallery</a>
