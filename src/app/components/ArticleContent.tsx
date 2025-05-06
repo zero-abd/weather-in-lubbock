@@ -7,7 +7,7 @@ export default function ArticleContent() {
     <article className="py-12 max-w-4xl mx-auto px-4">
       <div className="article-content">
         <div>
-          <p className="text-xl leading-relaxed mb-8">
+          <p className="leading-relaxed mb-8">
             It&apos;s a beautiful spring morning in Lubbock. The sun is shining, birds are chirping, and Texas Tech students are enjoying a pleasant 75-degree day on campus. By noon, the sky has turned an ominous shade of brown, and those same students are now racing across campus like contestants in a post-apocalyptic game show, desperately trying to avoid being sandblasted into oblivion.
           </p>
           
