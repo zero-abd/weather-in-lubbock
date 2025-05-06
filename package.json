@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build"
+    "export": "next build",
+    "deploy": "next build && echo.> docs/.nojekyll"
   },
   "dependencies": {
     "framer-motion": "^12.8.0",
