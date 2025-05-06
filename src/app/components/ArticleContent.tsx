@@ -55,7 +55,7 @@ export default function ArticleContent() {
             <div className="aspect-w-16 aspect-h-9">
               <iframe
                 className="w-full h-96 rounded-lg shadow-lg"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/embed/zi3YMutl0SI"
                 title="Texas Tech Students Talk About Lubbock Weather"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
