@@ -31,6 +31,8 @@ const memes: MemeProps[] = [
 ];
 
 export default function MemeGallery() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/weather-in-lubbock' : '';
+  
   return (
     <section id="gallery" className="py-16">
       <div className="max-w-4xl mx-auto px-4">
@@ -46,7 +48,7 @@ export default function MemeGallery() {
             >
               <div className="h-80 bg-gray-200 flex items-center justify-center relative">
                 <Image 
-                  src={meme.imagePath}
+                  src={`${basePath}${meme.imagePath}`}
                   alt={meme.title}
                   fill
                   style={{ objectFit: 'cover' }}
