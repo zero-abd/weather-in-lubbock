@@ -21,17 +21,17 @@ export default function WeatherDataCard({ type, title, data, description }: Weat
     <div className="bg-white rounded-lg shadow-md p-6 mb-8">
       <h3 className="text-lg font-bold mb-4">{title}</h3>
       
-      <div className="h-64 mb-6 flex items-center justify-center">
+      <div className="h-80 mb-6 flex items-center justify-center overflow-hidden">
         {type === 'pie' ? (
           <div className="w-full">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               {data.map((entry, index) => (
                 <div key={`item-${index}`} className="flex items-center px-2 py-1 rounded bg-gray-100">
                   <div 
-                    className="w-3 h-3 mr-2 rounded-full" 
+                    className="w-3 h-3 mr-2 rounded-full flex-shrink-0" 
                     style={{ backgroundColor: entry.color || COLORS[index % COLORS.length] }}
                   ></div>
-                  <span>{entry.name}</span>
+                  <span className="text-sm">{entry.name}</span>
                 </div>
               ))}
             </div>
@@ -82,7 +82,7 @@ export default function WeatherDataCard({ type, title, data, description }: Weat
         )}
       </div>
       
-      <p className="text-sm text-gray-600">{description}</p>
+      <p className="text-sm text-gray-600 overflow-hidden">{description}</p>
     </div>
   );
 } 

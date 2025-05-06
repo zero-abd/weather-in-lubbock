@@ -41,16 +41,15 @@ export default function VideoSection() {
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   className="w-full h-96"
-                  src={`https://www.youtube.com/embed/${video.embedId}`}
-                  title={video.title}
+                  src={`https://youtu.be/zi3YMutl0SI`}
+                  title={"Students' Perspective - Dust to Downpour: Student Insights on Lubbock's Rapid Weather Changes"}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{video.title}</h3>
-                <p className="text-gray-600">{video.description}</p>
+                <h3 className="text-xl font-bold mb-2">Students&apos; Perspective - Dust to Downpour: Student Insights on Lubbock&apos;s Rapid Weather Changes</h3>
               </div>
             </div>
           ))}

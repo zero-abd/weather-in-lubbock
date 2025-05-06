@@ -9,11 +9,11 @@ export default function Hero() {
       
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center leading-tight">
-          How Texas Tech Students Cope With Lubbock&apos;s Unpredictable Weather
+          Dust to Downpour: Student Insights on Lubbock's Rapid Weather Changes
         </h1>
         
         <div className="text-xl text-center max-w-2xl mx-auto">
-          <p>From dust storms to flash floods, snow in April to 90° in February — surviving the weather rollercoaster is practically a degree requirement</p>
+          <p>How Texas Tech students cope with erratic weather — combining preparation, community, and a healthy dose of humor</p>
         </div>
       </div>
     </div>

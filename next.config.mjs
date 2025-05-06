@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Configure for GitHub Pages
-  basePath: '/weather-in-lubbock',
-  assetPrefix: '/weather-in-lubbock/',
+  // Configure for GitHub Pages only in production
+  basePath: process.env.NODE_ENV === 'production' ? '/weather-in-lubbock' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/weather-in-lubbock/' : '',
 };
 
 export default nextConfig; 

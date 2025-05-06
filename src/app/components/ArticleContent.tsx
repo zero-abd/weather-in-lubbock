@@ -1,5 +1,6 @@
 import React from 'react';
-import { WiStrongWind, WiSnow, WiDaySunny, WiRain, WiDust } from 'react-icons/wi';
+import { WiStrongWind, WiSnow, WiDaySunny, WiRain } from 'react-icons/wi';
+import { FaCheckCircle, FaExclamationTriangle, FaInfoCircle } from 'react-icons/fa';
 
 export default function ArticleContent() {
   return (
@@ -7,7 +8,7 @@ export default function ArticleContent() {
       <div className="article-content">
         <div>
           <p className="text-xl leading-relaxed mb-8">
-            It&apos;s a beautiful spring morning in Lubbock. The sun is shining, birds are chirping, and Texas Tech students are enjoying a pleasant 75-degree day on campus. By noon, the temperature has dropped 30 degrees, the sky has turned an ominous shade of brown, and those same students are now racing across campus like contestants in a post-apocalyptic game show, desperately trying to avoid being sandblasted into oblivion.
+            It&apos;s a beautiful spring morning in Lubbock. The sun is shining, birds are chirping, and Texas Tech students are enjoying a pleasant 75-degree day on campus. By noon, the sky has turned an ominous shade of brown, and those same students are now racing across campus like contestants in a post-apocalyptic game show, desperately trying to avoid being sandblasted into oblivion.
           </p>
           
           <p>
@@ -16,7 +17,7 @@ export default function ArticleContent() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 flex items-center">
             <WiStrongWind className="text-red-600 mr-2 text-3xl" />
-            &quot;Here with the Wind&quot;: A Lubbock Love Story
+            Student Perspectives: The Wind and Dust Challenge
           </h2>
           
           <p>
@@ -24,101 +25,119 @@ export default function ArticleContent() {
           </p>
           
           <p>
-            &quot;Sunday&apos;s dust storm on March 3, 2023, was the strongest we&apos;ve seen since 2012, with 14 hours of dust and 2 hours of visibility below 1 kilometer,&quot; notes Dr. Ardon-Dryer. &quot;It was definitely one for the records.&quot;
+            According to our survey results, 76% of students now carry dust masks during peak season, with many describing it as an &quot;essential&quot; rather than just a precaution. Wind-related events topped students&apos; list of weather concerns, with dust storms being the most dreaded phenomenon.
           </p>
           
           <p>
-            For students, this means developing an entirely new set of survival skills. Junior engineering major, Carlos Martinez, has developed what he calls the &quot;Lubbock Lean&quot;—a walking technique that involves tilting at a 45-degree angle to counteract the wind while crossing Memorial Circle.
-          </p>
-          
-          <p>
-            &quot;You either master the Lubbock Lean or you end up in Oz,&quot; Martinez jokes. &quot;I&apos;ve seen freshmen literally get pushed back like they&apos;re walking against a treadmill.&quot;
+            For students, this means developing an entirely new set of survival skills. Junior engineering major, Carlos Martinez, has developed what he jokingly calls the &quot;Lubbock Lean&quot;—a walking technique that involves tilting at a 45-degree angle to counteract the wind while crossing Memorial Circle.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 flex items-center">
             <WiSnow className="text-blue-500 mr-2 text-3xl" />
-            &quot;Is This April or December?&quot;: Seasonal Identity Crisis
+            Coping with Unpredictability: Student Strategies
           </h2>
           
           <p>
-            While most university students across America pack away their winter clothes by March, Texas Tech students know better. April 2023 brought a rare winter storm with snow accumulation across the South Plains and Panhandle region, catching many off guard.
+            While most university students across America pack away their winter clothes by March, Texas Tech students know better. April 2025 brought a rare winter storm with snow accumulation across the South Plains and Panhandle region, catching many off guard.
           </p>
           
           <p>
-            &quot;I literally wore shorts to class in the morning and had to trudge through snow to get back to my dorm that afternoon,&quot; recalls sophomore psychology major Aisha Johnson. &quot;Now I just keep a full set of clothes for every season in my backpack at all times. My chiropractor loves me.&quot;
-          </p>
-          
-          <p>
-            This meteorological whiplash isn&apos;t just inconvenient—it&apos;s become part of campus culture. The Texas Tech meteorology department has even started a popular &quot;Weather Roulette&quot; social media channel where students guess what conditions will be like hour by hour, with surprisingly few winners.
+            Our survey found that 65% of students report carrying multiple outfit options daily. This adaptability extends to technology as well, with 88% relying on weather apps and 91% turning on weather alerts to stay prepared for sudden changes.
           </p>
 
-          <div className="bg-gray-100 p-6 rounded-lg my-8 text-center">
-            <h3 className="font-bold text-xl mb-3">&quot;Lubbock has taught me that checking the weather app is basically just reading fiction.&quot;</h3>
-            <p className="italic">— Emma Chen, Senior Business Major</p>
+          <div id="interviews" className="bg-gray-100 p-6 rounded-lg my-8 text-center">
+            <h3 className="font-bold text-xl mb-3">&quot;Lubbock has taught me that checking the weather app is a necessity.&quot;</h3>
+            <p className="italic">— Alif, Junior Accounting Major</p>
+          </div>
+          
+          <div className="my-8">
+            <h3 className="text-xl font-semibold mb-4">Texas Tech Students on Lubbock Weather</h3>
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                className="w-full h-96 rounded-lg shadow-lg"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Texas Tech Students Talk About Lubbock Weather"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <p className="text-sm text-gray-500 mt-2 italic">Texas Tech students share their experiences and feelings about the unpredictable Lubbock weather.</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 flex items-center">
-            <WiDust className="text-amber-800 mr-2 text-3xl" />
-            Dust: It&apos;s What&apos;s for Dinner
-          </h2>
-          
-          <p>
-            Perhaps the most iconic of Lubbock&apos;s weather phenomena are its dust storms or haboobs (yes, that&apos;s the technical term). These walls of dust can appear seemingly out of nowhere, transforming a clear day into a sepia-toned nightmare within minutes.
-          </p>
-          
-          <p>
-            According to Justin Weaver, Meteorologist-in-Charge at the National Weather Service, &quot;Many professional meteorologists who have been in Lubbock for many years feel like the March 2023 storm was certainly one of the worst dust storms/haboobs we have experienced here.&quot;
-          </p>
-          
-          <p>
-            For students, this means developing unique coping mechanisms. The Student Government Association now hosts &quot;Dust Prep&quot; workshops for incoming freshmen, teaching essential skills like how to properly seal a dorm room window with towels and the correct way to wear a bandana as an emergency filter.
-          </p>
-          
-          <p>
-            &quot;I&apos;ve learned to wear goggles to class on windy days,&quot; says graduate student Tyler Williams. &quot;My friends back home in Houston laugh at my &apos;desert storm chic&apos; look, but they&apos;ve never experienced the joy of finding sand in places sand should never be.&quot;
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 flex items-center">
             <WiDaySunny className="text-yellow-500 mr-2 text-3xl" />
-            When It&apos;s Good, It&apos;s Great
+            Finding the Silver Lining
           </h2>
           
           <p>
-            Despite the meteorological madness, students are quick to point out that Lubbock does deliver spectacular weather when it decides to behave. With over 260 sunny days per year and mild winters (punctuated by the occasional freak snowstorm), there&apos;s plenty to appreciate.
+            Despite all the complaints that Lubbock weather is unpredictable, students are quick to point out that Lubbock does deliver spectacular weather when it decides to behave. With over 260 sunny days per year and mild winters (punctuated by the occasional freak snowstorm), there&apos;s plenty to appreciate.
           </p>
           
           <p>
-            &quot;Those perfect fall days on campus make it all worthwhile,&quot; says senior art major Jessica Thompson. &quot;The sky gets this incredible blue that seems to go on forever, and the sunset turns everything this gorgeous shade of gold. You forget all about the times you had to chase your homework across the quad during a wind gust.&quot;
+            &quot;Those perfect fall days on campus make it all worthwhile. The sky gets this incredible blue that seems to go on forever, and the sunset turns everything this gorgeous shade of gold. It makes you forget all about those irritating windy days,&quot; says senior computer science major, Nemo.
           </p>
           
           <p>
-            The university has embraced this weather rollercoaster, with many campus traditions now incorporating Lubbock&apos;s climate quirks. The annual &quot;Dust to Dawn&quot; 5K race deliberately takes place during peak dust season, with prizes for the most creative protective gear. The Campus Pool hosts &quot;Flash Flood Fridays&quot; during monsoon season, where the shallow end is temporarily extended into the usually dry creek bed that runs through campus.
+            This sentiment is reflected in our survey data, with fall being the overwhelming favorite season among students (53%).
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 flex items-center">
             <WiRain className="text-blue-700 mr-2 text-3xl" />
-            A Different Kind of Weather Education
+            Practical Takeaways: The Weather Survival Guide
           </h2>
           
+          <div className="bg-white rounded-lg shadow-md p-6 my-8">
+            <h3 className="text-xl font-bold mb-4">Essential Checklist for Lubbock Weather</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                <span><strong>Layering Strategy:</strong> Dress in removable layers that can adapt to 30+ degree temperature swings in a single day</span>
+              </li>
+              <li className="flex items-start">
+                <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                <span><strong>Car Kit:</strong> Keep a small emergency kit in your vehicle with water, a dust mask, and a windbreaker</span>
+              </li>
+              <li className="flex items-start">
+                <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                <span><strong>Multiple Weather Apps:</strong> Cross-reference forecasts from different sources for better accuracy</span>
+              </li>
+              <li className="flex items-start">
+                <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                <span><strong>Mental Mindset:</strong> Embrace flexibility and develop a sense of humor about sudden weather changes</span>
+              </li>
+              <li className="flex items-start">
+                <FaExclamationTriangle className="text-amber-500 mt-1 mr-2" />
+                <span><strong>Safety Resources:</strong> Sign up for <a href="https://www.ttu.edu/techalert/" className="text-red-600 hover:underline">TechAlert</a> and save <a href="https://www.depts.ttu.edu/parking/InformationFor/MobilitySolutions/RaiderRide.php" className="text-red-600 hover:underline">Raider Ride</a> in your contacts</span>
+              </li>
+            </ul>
+          </div>
+          
           <p>
-            While students at other universities might complain about walking to class in light rain, Texas Tech students develop a certain hardiness that sets them apart. The campus bookstore sells more weather-related gear than most outdoor retailers, and students have turned weather preparedness into both an art and a science.
+            While students at other universities might complain about walking to class in light rain, Texas Tech students develop a certain hardiness that sets them apart. The stores just outside campus sell more weather-related gear than most other retailers, and students have turned weather preparedness into both an art and a science.
           </p>
           
           <p>
-            &quot;Honestly, dealing with Lubbock&apos;s weather has prepared me for life better than some of my classes,&quot; laughs senior communications major Brandon Rodriguez. &quot;You learn adaptability, planning ahead, and how to make the best of unpredictable situations. Plus, you develop a really great set of weather-related excuses for professors when you miss class.&quot;
+            &quot;Honestly, dealing with Lubbock&apos;s weather has prepared me for life better than some of my classes,&quot; laughs senior communications major, Rodriguez. &quot;You learn adaptability, planning ahead, and how to make the best of unpredictable situations. Plus, you develop a really great set of weather-related excuses for professors when you miss class.&quot;
           </p>
           
           <p>
-            As graduation approaches each spring, seniors reminisce about their weather war stories—the time the entire marching band had to chase their sheet music across Jones AT&T Stadium, or when a sudden downpour flooded the Student Union basement, creating an impromptu indoor pool party.
+            As graduation approaches each spring, seniors reminisce about their weather war stories—the time the entire marching band had to chase their sheet music across Jones AT&T Stadium, or when a sudden downpour flooded the Campus and everyone had to help each other get to class.
           </p>
           
           <p>
-            Love it or hate it, Lubbock&apos;s unpredictable weather has become an integral part of the Texas Tech experience. As the saying goes among alumni: &quot;You haven&apos;t truly attended Texas Tech until you&apos;ve been late to class because of all four seasons happening on your walk across campus.&quot;
+            Love it or hate it, Lubbock&apos;s unpredictable weather has become an integral part of the Texas Tech experience. As the saying goes among alumni: &quot;You haven&apos;t truly attended Texas Tech until you&apos;ve faced all four seasons happening on your walk across campus.&quot;
           </p>
           
-          <p>
-            So the next time you see a Texas Tech student casually walking through conditions that would make a storm chaser think twice, just know—they&apos;re not brave, they&apos;re just from Lubbock.
-          </p>
+          <div className="bg-gray-100 p-6 rounded-lg my-8">
+            <h3 className="font-bold text-xl mb-3 flex items-center">
+              <FaInfoCircle className="text-blue-600 mr-2" />
+              About This Project
+            </h3>
+            <p className="mb-2">
+              &quot;Dust to Downpour&quot; combines survey data from Texas Tech students with in-depth interviews to provide both breadth and personal narratives about coping with Lubbock&apos;s unique weather challenges.
+            </p>
+          </div>
         </div>
       </div>
     </article>
